@@ -1,0 +1,65 @@
+body{
+    size: auto;
+}
+section{
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+.contact{
+    color: white;
+    
+  
+}
+a{
+    text-decoration: none;
+    color: rgb(187, 201, 169);
+}
+
+.a{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+/*contact form*/
+.contact-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#contactus{
+    display: flex;
+    flex-direction: column;
+}
+input{
+    color:black;
+}
+label{
+    color: rgb(233, 229, 173);
+}
+#name{
+    color: black;
+}
+
+
+
+/*foorter*/
+footer{
+    font-size: small;
+    display:flex;
+    justify-content: center;
+    align-items: end;
+    background-color:  #fdd655ce;;
+    height: 90px;
+    
+   
+    
+}
+.con{
+    display:flex;
+    margin-right: 20px;
+    flex-direction: column;
+}

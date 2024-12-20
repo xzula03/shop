@@ -1,0 +1,57 @@
+body{
+    background-color: #3a1f1f;
+}
+nav{
+    height: 190px ;
+    width: 100%;
+    background-image: url(logo1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-color: #8BC34A;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+#name{
+    font-size: xx-large;
+    box-shadow: 0 0 100px 10px #3e27237e;
+    color:#fdd655ce;
+    
+}
+#nav{
+    display: flex;
+    gap: 20px;
+
+}
+#logo{
+    box-shadow: 0 0 10px 1px;
+    width: 100px;
+    height: 50px;  
+}
+img{
+    border-radius: 50%;
+}
+li{
+    list-style-type: none;
+}
+.click{
+    text-decoration: none;
+    background-color:#FFF8E1;
+    color:#3E2723;
+    padding: 10px;
+    border-radius: 40%;
+}
+#on:hover{
+    background-color:none;
+    color:#3a1f1f;
+    padding: 10px;
+    border-radius: 40%;
+    transition: 0.3s ease;
+}
+.click:hover{
+    background-color:#3E2723;
+    color:#8BC34A;
+    padding: 10px;
+    border-radius: 40%;
+    transition: 0.3s ease;
+}
